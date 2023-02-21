@@ -1,0 +1,8 @@
+length=int(input("length"))
+print(length)
+breadth=int(input("breadth"))
+print(breadth)
+print("Area of rectangle")
+print(length*breadth)
+print("Perimeter")
+print(2*(length+breadth))

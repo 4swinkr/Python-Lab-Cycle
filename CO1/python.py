@@ -1,0 +1,42 @@
+#list=[2,14,23,44,25]
+#print(list)
+#print(list[0])
+#print(list)
+#print(list[3])
+#print(list)
+#print(list[0:3])
+#print(list)
+#print(list[-2])
+#list.append(6)
+#print(list)
+#index=list.index(3)
+#print("the index of the element is",index)
+#print(len(list))
+#if 23 in list:
+ #   print("yes")
+#else:
+#    print("no")
+ #   print(list)
+#list.sort()
+#print(list)
+#list.pop(2)
+#print(list)
+#list2=[1,8,4,5,7,8]
+#del list2[6]
+#print(list2)
+#list2.reverse()
+#print(list2)
+#count=list2.count(8)
+#print(count)
+#list2.clear()
+#print(list2)
+#list3=[5,10,15,20]
+#print(list3)
+#list3.remove(10)
+#print(list3)
+mylist=['cat',0,6,7]
+newlist=mylist.copy()
+print("copied list:",newlist)
+newlist.append('a')
+print("new list:",newlist)
+print("old list:",mylist)

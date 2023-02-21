@@ -1,0 +1,6 @@
+fo=open("a.txt","w")
+fo.write("Python is a great language. \n Yeah its great!!!\n")
+fo.close()
+fn=open("a.txt",'r')
+s=fn.read()
+print(s)
